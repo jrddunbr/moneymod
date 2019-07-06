@@ -1,0 +1,16 @@
+[
+{
+  "modid": "moneymod",
+  "name": "Money Mod",
+  "description": "Money for your server!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://ja13.org",
+  "updateUrl": "",
+  "authorList": ["jrddunbr"],
+  "credits": "jrddunbr",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

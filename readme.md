@@ -1,4 +1,4 @@
-# motdmod
+# moneymod
 
 This is a basic Minecraft Forge 1.7.10 mod that creates some money items for use with a currency system.
 

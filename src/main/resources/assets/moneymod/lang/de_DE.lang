@@ -1,0 +1,13 @@
+item.One_Dollar_Bill.name=1-Dollar-Schein
+item.Five_Dollar_Bill.name=5-Dollar-Schein
+item.Ten_Dollar_Bill.name=10-Dollar-Schein
+item.Twenty_Dollar_Bill.name=20-Dollar-Schein
+item.Fifty_Dollar_Bill.name=50-Dollar-Schein
+item.Hundred_Dollar_Bill.name=100-Dollar-Schein
+item.Penny.name=Penny
+item.Nickel.name=Nickel
+item.Dime.name=Dime
+item.Quarter.name=Quarter
+item.Half_Dollar_Coin.name=Half-Dollar-Münze
+item.Dollar_Coin.name=Dollarmünze
+itemGroup.MoneyMod_Items=Money Mod Items

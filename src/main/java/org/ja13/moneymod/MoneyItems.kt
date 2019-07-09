@@ -2,8 +2,15 @@ package org.ja13.moneymod
 
 import net.minecraft.item.Item
 
-class Dollar: Item {
-    constructor(size: String, tab: MoneyTab) {
+open class MoneyModItems(oredict: String): Item() {
+    protected val oredict: String
+    init {
+        this.oredict = oredict
+    }
+}
+
+class Dollar(size: String, oredict: String, tab: MoneyTab) : MoneyModItems(oredict) {
+    init {
         setUnlocalizedName(size + " Dollar Bill".replace(" ", "_"))
         setTextureName("moneymod:" + size.toLowerCase() + "dollars")
         setMaxStackSize(64)
@@ -11,8 +18,8 @@ class Dollar: Item {
     }
 }
 
-class Coin: Item {
-    constructor(size: String, tab: MoneyTab) {
+class Coin(size: String, oredict: String, tab: MoneyTab) : MoneyModItems(oredict) {
+    init {
         setUnlocalizedName(size.replace(" ", "_"))
         setTextureName("moneymod:" + size.toLowerCase().replace(" ", ""))
         setMaxStackSize(64)
